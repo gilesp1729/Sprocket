@@ -1,0 +1,165 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "resource.h"
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""resource.h""\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Settings...",                 IDC_SETTINGS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...",                   IDC_PRINT
+        MENUITEM "&Save to DXF...",             IDC_SAVEDXF
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDC_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SETTINGS DIALOGEX 0, 0, 250, 270
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    COMBOBOX        IDC_CHAIN,7,18,139,115,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EXTRA,7,36,30,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TEETH,7,57,30,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ECC,7,78,30,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PCD,7,121,30,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_N_HOLES,7,142,30,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BOLT_HOLE,135,142,30,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MOUNTING,7,163,30,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CRANK,7,185,30,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WEB,7,208,30,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,189,18,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,189,36,50,14
+    PUSHBUTTON      "Apply",IDAPPLY,189,55,50,14
+    LTEXT           "Number of teeth",IDC_STATIC,42,60,139,10
+    LTEXT           "Eccentricity, as percentage major over minor\r(0 for a circle, +ve for an ellipse)",IDC_STATIC,42,78,140,16
+    LTEXT           "Size and shape of sprocket",IDC_STATIC,8,3,98,10
+    LTEXT           "Crank and PCD details",IDC_STATIC,8,107,139,10
+    LTEXT           "PCD in mm\r(typically 90, 110 or 130mm)",IDC_STATIC,42,120,141,19
+    LTEXT           "Crank angle from major axis\r(usually 0 for recumbent, 90 for upright)",IDC_STATIC,41,184,141,17
+    LTEXT           "Mounting circle\r(typically 16mm less than PCD with 10mm bolt holes)",IDC_STATIC,41,162,176,18
+    LTEXT           "",IDS_ERR,7,246,234,17
+    LTEXT           "Web thickness between scallop and teeth\r(in mm)",IDC_STATIC,41,206,141,17
+    LTEXT           "mm",IDC_STATIC,171,125,27,12
+    LTEXT           "Sprocket v2.1 (Oct 2014)",IDC_STATIC,163,3,77,10
+    LTEXT           "Number of bolt holes, of size",IDC_STATIC,42,145,92,11
+    LTEXT           "Chain",IDC_STATIC,151,20,26,10
+    CONTROL         "Include layout lines and punch marks",IDC_LAYOUT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,229,139,12
+    LTEXT           "Clearance radius on chain rollers",IDC_STATIC,42,39,114,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 243
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 263
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Australia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENA)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_AUS
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+#endif    // English (Australia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
