@@ -14,13 +14,11 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// English (U.S.) resources
+// English (United States) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
-#ifdef _WIN32
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 #pragma code_page(1252)
-#endif //_WIN32
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -54,7 +52,7 @@ END
 // Menu
 //
 
-IDR_MENU1 MENU 
+IDR_MENU1 MENU
 BEGIN
     POPUP "&File"
     BEGIN
@@ -101,7 +99,7 @@ BEGIN
     LTEXT           "",IDS_ERR,7,246,234,17
     LTEXT           "Web thickness between scallop and teeth\r(in mm)",IDC_STATIC,41,206,141,17
     LTEXT           "mm",IDC_STATIC,171,125,27,12
-    LTEXT           "Sprocket v2.1 (Oct 2014)",IDC_STATIC,163,3,77,10
+    LTEXT           "Sprocket v2.2 (Jul 2019)",IDC_STATIC,150,3,90,10
     LTEXT           "Number of bolt holes, of size",IDC_STATIC,42,145,92,11
     LTEXT           "Chain",IDC_STATIC,151,20,26,10
     CONTROL         "Include layout lines and punch marks",IDC_LAYOUT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,229,139,12
@@ -115,7 +113,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_SETTINGS, DIALOG
     BEGIN
@@ -127,7 +125,7 @@ BEGIN
 END
 #endif    // APSTUDIO_INVOKED
 
-#endif    // English (U.S.) resources
+#endif    // English (United States) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
@@ -135,10 +133,8 @@ END
 // English (Australia) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENA)
-#ifdef _WIN32
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_AUS
 #pragma code_page(1252)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //

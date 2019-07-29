@@ -402,7 +402,7 @@ plot(HDC hdc)
             X(tooth[next].x + trad - dropx),
             Y(tooth[next].y + trad - dropy),
             X(x1), Y(y1),
-            X(x2), Y(y2)
+            X(x2 + dropx), Y(y2 + dropy)
         );
 
         theta = atan2(tooth[prev].x - tooth[i].x, tooth[i].y - tooth[prev].y);
@@ -433,7 +433,7 @@ plot(HDC hdc)
             Y(tooth[prev].y - trad - dropy),
             X(tooth[prev].x + trad - dropx),
             Y(tooth[prev].y + trad - dropy),
-            X(x3), Y(y3),
+            X(x3 + dropx), Y(y3 + dropy),
             X(x1), Y(y1)
         );
     }
@@ -616,7 +616,7 @@ save_dxf(FILE *file)
             tooth[next].x + trad - dropx,
             tooth[next].y + trad - dropy,
             x1, y1,
-            x2, y2,
+            x2 + dropx, y2 + dropy,
 	    1
         );
 
@@ -647,7 +647,7 @@ save_dxf(FILE *file)
             tooth[prev].y - trad - dropy,
             tooth[prev].x + trad - dropx,
             tooth[prev].y + trad - dropy,
-            x3, y3,
+            x3 + dropx, y3 + dropy,
             x1, y1,
 	    1
         );
